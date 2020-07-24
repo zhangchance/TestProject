@@ -11,6 +11,7 @@ public class SecondActivity extends AppCompatActivity {
         //123444s
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        //ceshi
     }
     //112333
 }
