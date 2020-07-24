@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this,SecondActivity.class);
                 startActivity(intent);
                 //123
+                //tests
             }
         });
     }
