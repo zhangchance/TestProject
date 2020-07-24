@@ -8,6 +8,7 @@ public class SecondActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //123444s
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
     }
