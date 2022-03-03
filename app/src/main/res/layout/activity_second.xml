@@ -5,5 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
+    <Button
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/button_test"
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.example.zccproject.view.RenderView
+        android:id="@+id/test_on"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_test"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:text="ON"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.example.zccproject.view.RenderView>
+
+    <com.example.zccproject.view.RenderView
+        android:id="@+id/test_off"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/test_on"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:text="OFF"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.example.zccproject.view.RenderView>
+
+    <TextView
+        android:id="@+id/test_move"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#f00"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/test_off"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

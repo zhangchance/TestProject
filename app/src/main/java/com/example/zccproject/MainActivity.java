@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         secondActivity=findViewById(R.id.second);
-        String name = packName;
         //ceshi
         secondActivity.setOnClickListener(new View.OnClickListener() {
             @Override
